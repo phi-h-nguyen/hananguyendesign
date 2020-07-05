@@ -1,2 +1,2 @@
 # hananguyendesign
-Graphic Design Portfolio Site
+Graphic Design Portfolio Site for Hana Nguyen
