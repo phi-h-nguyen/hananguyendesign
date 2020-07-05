@@ -1,10 +1,12 @@
 /* Scrollbars */
+
 html {
     overflow-y: scroll;
     overflow-x: hidden
 }
 
-/* Links */ 
+/* Links */
+
 a {
     color: #333;
 }
@@ -44,6 +46,8 @@ a:hover {
 #portfolio-grid {
     padding: 0 10rem;
     margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .item {
@@ -138,9 +142,22 @@ footer p {
     margin: 0 .35rem
 }
 
-/* Mobile Styling */
-@media (max-width:768px) {
+@media (max-width: 768px) {
+    #portfolio-grid {
+        padding: 0 2rem;
+    }
 
+    .navigation a {
+        font-size: 12px;
+        width: 25%;
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+}
+
+/* Mobile Styling */
+
+@media (max-width:576px) {
     .navigation a {
         width: auto;
         margin: auto;

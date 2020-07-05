@@ -1,0 +1,89 @@
+/* HTML and Body */
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #fff
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+body {
+    background: url('../assets/cover.jpg') rgba(0, 0, 0, .5);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+/* Content and Button */
+
+h1 {
+    font-size: 48px
+}
+
+.portfolio {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    padding: 8px 30px;
+    font-size: 18px;
+    outline: none
+}
+
+.portfolio:enabled {
+    outline: none
+}
+
+.portfolio:hover {
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    transition: .5s ease;
+    border: none;
+    outline: none
+}
+
+.content {
+    height: 90vh;
+    margin: 3rem
+}
+
+.buffer {
+    height: 25%
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    right: 65px;
+    width: 100%;
+}
+
+footer a {
+    color: #eee;
+}
+
+footer a:hover {
+    color: #ccc
+}
+
+/* Mobile Styling */
+
+@media (max-width:768px) {
+    .content {
+        margin: 3rem 0rem;
+    }
+    footer {
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        width: 100%;
+    }
+}
