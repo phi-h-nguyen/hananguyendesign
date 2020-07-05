@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hana Nguyen Designs</title>
+    <link rel="shortcut icon" href="assets/favicon.png" />
+
+    <!-- Bootstrap and AOS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+
+    <!-- JS, Popper.js, jQuery, and FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/9469a27cf9.js"></script>
+
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+            overflow-y: hidden;
+            background-color: #fff
+        }
+
+        body.fade-out {
+            opacity: 0;
+            transition: none;
+        }
+
+        body {
+            background: url('assets/cover.jpg') rgba(0, 0, 0, .5);
+            background-size: cover;
+            color: #fff;
+            opacity: 1;
+            transition: 1s opacity;
+        }
+
+        .portfolio {
+            background-color: #fff;
+            border: none;
+            color: #333;
+            padding: 8px 30px;
+            font-size: 18px;
+            outline: none
+        }
+
+        .portfolio:enabled {
+            outline: none
+        }
+
+        .portfolio:hover {
+            background-color: #ccc;
+            color: #333;
+            cursor: pointer;
+            transition: .5s ease;
+            border: none;
+            outline: none
+        }
+
+        h1 {
+            font-size: 48px
+        }
+
+        footer {
+            position: absolute;
+            bottom: 50px;
+            right: 65px;
+            width: 100%;
+        }
+
+        a {
+            color: #eee;
+        }
+
+        a:hover {
+            color: #ccc
+        }
+
+        .content {
+            height: 90vh;
+        }
+
+        .buffer {
+            height: 25%
+        }
+    </style>
+    <script>
+        $(function () {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+</head>
+
+<body>
+    <script>document.body.className += ' fade-out';</script>
+    <div class="content text-right m-5">
+        <div class="row justify-content-end m-3">
+            <div class="">
+                <img src="assets/logo.png" width="60px">
+            </div>
+        </div>
+        <div class="buffer">
+        </div>
+        <div class="align-self-center my-auto">
+            <div class="align-self-center row justify-content-end m-3 my-4">
+                <h1>
+                    Hana Nguyen
+                </h1>
+            </div>
+            <div class="row justify-content-end m-3 my-4">
+                <button class="portfolio" onclick="location.href='graphic.html';">Portfolio</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-right">
+        <a href="https://www.linkedin.com/in/hnguye10/" target="_blank"><i class="fa fa-linkedin fa-lg mx-2"
+                aria-hidden="true"></i></a>
+        <a href="mailto:hnguye10@alumni.nd.edu" target="_blank"><i class="fa fa-envelope-o fa-lg mx-2"
+                aria-hidden="true"></i></a>
+    </footer>
+</body>
+
+</html>
