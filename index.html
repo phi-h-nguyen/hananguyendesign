@@ -42,9 +42,15 @@
         body {
             background: url('assets/cover.jpg') rgba(0, 0, 0, .5);
             background-size: cover;
+            background-position: center;
             color: #fff;
             opacity: 1;
             transition: 1s opacity;
+        }
+        @media (max-width:768px) {
+            body {
+
+            }
         }
 
         .portfolio {
@@ -105,6 +111,7 @@
 
 <body>
     <script>document.body.className += ' fade-out';</script>
+    
     <div class="content text-right m-5">
         <div class="row justify-content-end m-3">
             <div class="">
@@ -120,15 +127,15 @@
                 </h1>
             </div>
             <div class="row justify-content-end m-3 my-4">
-                <button class="portfolio" onclick="location.href='graphic.html';">Portfolio</button>
+                <button class="portfolio" onclick="location.href='graphic.html'">Portfolio</button>
             </div>
         </div>
     </div>
 
     <footer class="text-right">
-        <a href="https://www.linkedin.com/in/hnguye10/" target="_blank"><i class="fa fa-linkedin fa-lg mx-2"
+        <a href="https://www.linkedin.com/in/hnguye10/" target="_blank" rel="noopener"><i class="fa fa-linkedin fa-lg mx-2"
                 aria-hidden="true"></i></a>
-        <a href="mailto:hnguye10@alumni.nd.edu" target="_blank"><i class="fa fa-envelope-o fa-lg mx-2"
+        <a href="mailto:hnguye10@alumni.nd.edu" target="_blank" rel="noopener"><i class="fa fa-envelope-o fa-lg mx-2"
                 aria-hidden="true"></i></a>
     </footer>
 </body>

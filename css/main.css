@@ -1,33 +1,10 @@
+/* Scrollbars */
 html {
     overflow-y: scroll;
     overflow-x: hidden
 }
 
-footer p {
-    text-align: center;
-}
-
-#portfolio-grid {
-    padding: 0 10rem;
-    margin-top: 2rem;
-}
-
-.footerLine {
-    margin: 1rem 10rem;
-    border-color: #333
-}
-
-.icons {
-    position: fixed;
-    bottom: 50px;
-    right: 40px;
-    width: 100%;
-}
-
-.icons a {
-    margin: 0 .35rem
-}
-
+/* Links */ 
 a {
     color: #333;
 }
@@ -35,6 +12,8 @@ a {
 a:hover {
     color: #888
 }
+
+/* Navbar */
 
 .navigation {
     width: 100%;
@@ -58,6 +37,13 @@ a:hover {
 
 .navigation .selected {
     color: #000
+}
+
+/* Portfolio Grid */
+
+#portfolio-grid {
+    padding: 0 10rem;
+    margin-top: 2rem;
 }
 
 .item {
@@ -105,11 +91,6 @@ a:hover {
     padding: 2rem
 }
 
-.item .item-wrap>.work-info h3 {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
 .item .item-wrap>.work-info span {
     font-size: 16px;
     text-transform: uppercase;
@@ -135,7 +116,31 @@ a:hover {
     visibility: visible;
 }
 
+/* Footer */
+
+footer p {
+    text-align: center;
+}
+
+.footerLine {
+    margin: 1rem 10rem;
+    border-color: #333
+}
+
+.icons {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    width: 100%;
+}
+
+.icons a {
+    margin: 0 .35rem
+}
+
+/* Mobile Styling */
 @media (max-width:768px) {
+
     .navigation a {
         width: auto;
         margin: auto;
@@ -166,6 +171,6 @@ a:hover {
         bottom: 50px;
     }
     .footerLine {
-        visibility: hidden
+        margin: .5rem 3rem;
     }
 }
