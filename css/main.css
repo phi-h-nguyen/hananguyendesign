@@ -9,6 +9,7 @@ footer p {
 
 #portfolio-grid {
     padding: 0 10rem;
+    margin-top: 2rem;
 }
 
 .footerLine {
@@ -19,8 +20,12 @@ footer p {
 .icons {
     position: fixed;
     bottom: 50px;
-    right: 65px;
+    right: 40px;
     width: 100%;
+}
+
+.icons a {
+    margin: 0 .35rem
 }
 
 a {
@@ -106,7 +111,7 @@ a:hover {
 }
 
 .item .item-wrap>.work-info span {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
@@ -146,5 +151,21 @@ a:hover {
     }
     #portfolio-grid {
         padding: 0 2rem;
+        margin-top: 0
+    }
+    .icons a {
+        background: rgba(220, 220, 220);
+        padding: .5rem;
+        border-radius: 20%;
+        margin: .5rem;
+        margin-bottom: 2rem;
+        color: black;
+    }
+    .icons {
+        right: 30px;
+        bottom: 50px;
+    }
+    .footerLine {
+        visibility: hidden
     }
 }
