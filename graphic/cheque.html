@@ -44,8 +44,12 @@
 
 <body>
 	<script>
-		AOS.init({disable: 'mobile'});
-	</script>
+		AOS.init({
+			disable: function () {
+				var maxWidth = 576;
+				return window.innerWidth < maxWidth;
+			}
+		});	</script>
 
 	<header>
 		<div class="row mt-5">
