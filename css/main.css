@@ -6,10 +6,12 @@ html {
 }
 
 /* Text */
+
 h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bold;
 }
+
 p {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
@@ -177,6 +179,10 @@ footer p {
 /* Mobile Styling */
 
 @media (max-width:576px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     header {
         padding: 0
     }
