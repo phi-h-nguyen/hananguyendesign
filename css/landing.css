@@ -23,16 +23,19 @@ body {
 /* Content and Button */
 
 h1 {
-    font-size: 48px
+    font-size: 64px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .portfolio {
     background-color: #fff;
     border: none;
     color: #333;
-    padding: 8px 30px;
-    font-size: 18px;
-    outline: none
+    font-family: 'Cairo', sans-serif;    
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    letter-spacing: .2rem;
 }
 
 .portfolio:enabled {
@@ -77,6 +80,9 @@ footer a:hover {
 /* Mobile Styling */
 
 @media (max-width:768px) {
+    h1 {
+        font-size: 48px
+    }
     .content {
         margin: 3rem 0rem;
     }

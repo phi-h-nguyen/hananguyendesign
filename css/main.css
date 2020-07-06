@@ -2,7 +2,7 @@
 
 html {
     overflow-y: scroll;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 /* Links */
@@ -17,6 +17,14 @@ a:hover {
 
 /* Navbar */
 
+header {
+    padding: 0 10%
+}
+
+header img {
+    padding-left: 7.5%
+}
+
 .navigation {
     width: 100%;
     height: 7%
@@ -25,12 +33,12 @@ a:hover {
 .navigation a {
     color: #888;
     text-decoration: none;
-    font-size: 14px;
-    width: 20%;
+    font-size: 16px;
+    width: 25%;
     text-align: center;
-    margin-top: 5%;
     cursor: pointer;
-    font-weight: 150;
+    vertical-align: center;
+    margin-top: 5%;
 }
 
 .navigation a:hover {
@@ -146,7 +154,6 @@ footer p {
     #portfolio-grid {
         padding: 0 2rem;
     }
-
     .navigation a {
         font-size: 12px;
         width: 25%;
@@ -158,6 +165,12 @@ footer p {
 /* Mobile Styling */
 
 @media (max-width:576px) {
+    header {
+        padding: 0
+    }
+    header img {
+        padding: 0
+    }
     .navigation a {
         width: auto;
         margin: auto;

@@ -1,0 +1,86 @@
+/* Content and Images */
+
+.content {
+	margin: 1rem 10%;
+	text-align: justify;
+}
+
+.content img {
+	margin: 2rem 0rem;
+}
+
+hr {
+	border-color: #888;
+	margin: 2rem 10%;
+}
+
+p {
+	padding-top: 1rem;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.8;
+	font-size: 18px
+}
+
+h1 {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h6 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold
+}
+
+/* Subtitle */
+
+#mobile-subtitle {
+	visibility: hidden;
+	height: 0px
+}
+
+#desktop-subtitle {
+	visibility: visible;
+}
+
+/* Carousel */
+
+.carousel .carousel-indicators li {
+	background-color: #888;
+}
+
+.carousel .carousel-indicators .active {
+	background-color: #333;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	border-radius: 50%;
+	padding: .5rem;
+}
+
+/* Mobile styling */
+
+@media (max-width:768px) {
+	.content {
+		margin: 1rem 2rem;
+	}
+	hr {
+		margin: 1rem 0rem
+	}
+	.content img {
+		margin: 1rem 0rem;
+	}
+	h6 {
+		text-align: center
+	}
+	p {
+		text-align: justify
+	}
+	#desktop-subtitle {
+		visibility: hidden;
+		height: 0px
+	}
+	#mobile-subtitle {
+		visibility: visible;
+		height: 100%;
+	}
+}
