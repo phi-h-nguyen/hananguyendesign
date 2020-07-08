@@ -32,11 +32,7 @@ a:hover {
 /* Navbar */
 
 header {
-    padding: 0 10%
-}
-
-header img {
-    padding-left: 7.5%
+    padding: 0 7.5%
 }
 
 .navigation {
@@ -53,6 +49,8 @@ header img {
     cursor: pointer;
     vertical-align: center;
     margin-top: 5%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: auto 0
 }
 
 .navigation a:hover {
@@ -183,6 +181,11 @@ footer p {
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    body {
+        overflow-y: hidden;
+    }
+    
     header {
         padding: 0
     }
