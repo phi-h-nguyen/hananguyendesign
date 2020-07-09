@@ -159,7 +159,7 @@ footer p {
 }
 
 .icons a {
-    margin: 0 .35rem
+    margin: 0 .35rem;
 }
 
 @media (max-width: 768px) {
@@ -210,15 +210,19 @@ footer p {
         margin-top: 0
     }
     .icons a {
-        background: rgba(220, 220, 220);
+        background: rgba(220, 220, 220, .7);
         padding: .5rem;
         border-radius: 20%;
         margin: .5rem;
         margin-bottom: 2rem;
         color: black;
     }
+
+    .icons a:hover {
+        background: rgba(220, 220, 220, .9);
+    }
     .icons {
-        right: 30px;
+        right: 10px;
         bottom: 50px;
     }
     .footerLine {
