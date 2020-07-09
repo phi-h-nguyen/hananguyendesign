@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Studio Art</title>
+		<link rel="shortcut icon" href="../assets/favicon.png" />
+
+		<!-- Bootstrap and AOS -->
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/aos.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo&family=IBM+Plex+Sans:wght@300&family=Quicksand&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- JS -->
+		<script src="../js/aos.js"></script>
+		<script src="js/studio.js"></script>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="css/studio.css" />
+
+		<!-- JS, Popper.js, jQuery, and FontAwesome -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://use.fontawesome.com/9469a27cf9.js"></script>
+
+		<style>
+			.carousel img {
+				max-height: 90vh;
+				max-width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script>
+			AOS.init();
+			$(window).on('load resize orientationchange', normalizeSlideHeights);
+		</script>
+
+		<header>
+			<div class="row mt-5 align-self-center mb-sm-5">
+				<div class="d-block m-auto">
+					<a href="../index.html">
+						<img src="../assets/animated-logo.gif" height="100px" />
+					</a>
+				</div>
+				<div class="col-sm-9">
+					<nav class="mt-4 navigation navbar navbar-expand-sm navbar-light">
+						<a
+							class="navbar-toggler"
+							data-toggle="collapse"
+							data-target="#navbarCollapse"
+							aria-controls="navbarCollapse"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+							>Menu
+						</a>
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+							<a class="nav-link" href="../index.html"> HOME </a>
+							<a class="nav-link" href="../graphic.html"> GRAPHIC DESIGN </a>
+							<a class="nav-link selected" href="../studio.html"> STUDIO ART </a>
+							<a class="nav-link" href="../resume.html"> RESUME </a>
+							<a class="nav-link" href="../about.html"> ABOUT </a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="content text-center" data-aos="fade-up">
+			<h1>CREATIVE PHOTOGRAPHY</h1>
+			<h6>Photography 1 | Spring 2015</h6>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-10 mx-auto">
+				<div class="content" data-aos="fade-up">
+					<div id="photographyCarousel" class="carousel slide" data-ride="photographyCarousel">
+						<ol class="carousel-indicators">
+							<li data-target="#photographyCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#photographyCarousel" data-slide-to="1"></li>
+							<li data-target="#photographyCarousel" data-slide-to="2"></li>
+							<li data-target="#photographyCarousel" data-slide-to="3"></li>
+							<li data-target="#photographyCarousel" data-slide-to="4"></li>
+							<li data-target="#photographyCarousel" data-slide-to="5"></li>
+							<li data-target="#photographyCarousel" data-slide-to="6"></li>
+							<li data-target="#photographyCarousel" data-slide-to="7"></li>
+							<li data-target="#photographyCarousel" data-slide-to="8"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block mx-auto" src="../assets/photography/photography1.jpg" alt="First slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography2.jpg" alt="Second slide"/>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography3.jpg" alt="Third slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography4.jpg" alt="Fourth slide"/>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography5.jpg" alt="Fifth slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography6.jpg" alt="Sixth slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography7.jpg" alt="Seventh slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography8.jpeg" alt="Eighth slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block mx-auto" src="../assets/photography/photography9.jpg" alt="Ninth slide" />
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#photographyCarousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#photographyCarousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<div id="portfolio-grid" class="row no-gutter" data-aos="fade-up">
+			<div class="item col-md-6 col-lg-3 mb-4">
+				<a href="woodworking.html" class="item-wrap">
+					<div class="work-info">
+						<span>WOODWORKING</span>
+					</div>
+					<img class="img-fluid" src="../assets/thumbnails/woodworking.jpg" />
+				</a>
+			</div>
+			<div class="item col-md-6 col-lg-3 mb-4">
+				<a href="disney-princess.html" class="item-wrap">
+					<div class="work-info">
+						<span>DISNEY PRINCESS PHOTO SERIES</span>
+					</div>
+					<img class="img-fluid" src="../assets/thumbnails/AmeliaTink.jpg" />
+				</a>
+			</div>
+			<div class="item col-md-6 col-lg-3 mb-4">
+				<a href="painting.html" class="item-wrap">
+					<div class="work-info">
+						<span>PAINTING</span>
+					</div>
+					<img class="img-fluid" src="../assets/thumbnails/painting.jpg" />
+				</a>
+			</div>
+			<div class="item col-md-6 col-lg-3 mb-4">
+				<a href="photography.html" class="item-wrap">
+					<div class="work-info">
+						<span>PHOTOGRAPHY + DESIGN</span>
+					</div>
+					<img class="img-fluid" src="../assets/thumbnails/creativephoto.jpg" />
+				</a>
+			</div>
+		</div>
+
+		<footer>
+			<hr class="footerLine" />
+			<a href="https://github.com/phi-h-nguyen" target="_blank" rel="noopener">
+				<p>by Phi Henry Nguyen 2020</p>
+			</a>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+
+		<footer class="icons text-right">
+			<a href="https://www.linkedin.com/in/hnguye10/" target="_blank" rel="noopener">
+				<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+			</a>
+			<a href="mailto:hnguye10@alumni.nd.edu" target="_blank" rel="noopener">
+				<i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+			</a>
+		</footer>
+	</body>
+</html>
